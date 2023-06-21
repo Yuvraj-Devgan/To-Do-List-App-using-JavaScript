@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*parent div*/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #131727;
+}
+
+h1{
+  margin: 100px 0 20px 0;
+  color: white;
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+}
+
+h1 span{
+  font-size: 30px;
+  margin-right: 10px;
+}
+/*child div*/
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 350px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
+input{
+  padding: 10px 12px;
+  outline: 0;
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.box button {
+  padding: 10px 12px;
+  border-radius: 4px;
+  border:0;
+  cursor: pointer;
+  background-color: #24ab24;
+  color: white;
+  width: 155px;
+  font-size: 18px;
+}
+
+.box button:hover{
+  background-color: #28b928;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+li {
+  margin: 15px ;
+  color: #fff;
+  font-size: 22px;
+}
+
+ul button{
+  padding: 10px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  right: 10px;
+}
+
+ul button:hover{
+  background-color: whitesmoke;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
